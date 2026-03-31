@@ -17,7 +17,6 @@ import { useLenis } from "lenis/react";
 interface MobileMenuProps {
   sections: NavSection[];
   activeSection: string | null;
-  scrollToSection: (id: string) => void;
   isScrolled: boolean;
 }
 
